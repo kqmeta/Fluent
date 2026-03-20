@@ -38,7 +38,7 @@ function Element:New(Idx, Config)
 		AnchorPoint = Vector2.new(0, 0.5),
 		Position = UDim2.new(0, -7, 0.5, 0),
 		Size = UDim2.fromOffset(14, 14),
-		Image = "http://www.roblox.com/asset/?id=12266946128",
+		Image = "",
 		ThemeTag = {
 			ImageColor3 = "Accent",
 		},
