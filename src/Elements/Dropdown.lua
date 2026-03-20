@@ -123,7 +123,7 @@ function Element:New(Idx, Config)
 		}),
 		New("ImageLabel", {
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=5554236805",
+			Image = "",
 			ScaleType = Enum.ScaleType.Slice,
 			SliceCenter = Rect.new(23, 23, 277, 277),
 			Size = UDim2.fromScale(1, 1) + UDim2.fromOffset(30, 30),
