@@ -51,7 +51,7 @@ function Element:New(Idx, Config)
 	})
 
 	local DropdownIco = New("ImageLabel", {
-		Image = "rbxassetid://10709790948",
+		Image = "",
 		Size = UDim2.fromOffset(16, 16),
 		AnchorPoint = Vector2.new(1, 0.5),
 		Position = UDim2.new(1, -8, 0.5, 0),
@@ -93,9 +93,9 @@ function Element:New(Idx, Config)
 		Size = UDim2.new(1, -5, 1, -10),
 		Position = UDim2.fromOffset(5, 5),
 		BackgroundTransparency = 1,
-		BottomImage = "rbxassetid://6889812791",
-		MidImage = "rbxassetid://6889812721",
-		TopImage = "rbxassetid://6276641225",
+		BottomImage = "",
+		MidImage = "",
+		TopImage = "",
 		ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
 		ScrollBarImageTransparency = 0.95,
 		ScrollBarThickness = 4,
