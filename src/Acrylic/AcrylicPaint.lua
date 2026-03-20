@@ -13,7 +13,7 @@ return function(props)
 		BorderSizePixel = 0,
 	}, {
 		New("ImageLabel", {
-			Image = "rbxassetid://8992230677",
+			Image = "",
 			ScaleType = "Slice",
 			SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
 			AnchorPoint = Vector2.new(0.5, 0.5),
@@ -59,7 +59,7 @@ return function(props)
 		}),
 
 		New("ImageLabel", {
-			Image = "rbxassetid://9968344105",
+			Image = "",
 			ImageTransparency = 0.98,
 			ScaleType = Enum.ScaleType.Tile,
 			TileSize = UDim2.new(0, 128, 0, 128),
@@ -72,7 +72,7 @@ return function(props)
 		}),
 
 		New("ImageLabel", {
-			Image = "rbxassetid://9968344227",
+			Image = "",
 			ImageTransparency = 0.9,
 			ScaleType = Enum.ScaleType.Tile,
 			TileSize = UDim2.new(0, 128, 0, 128),
