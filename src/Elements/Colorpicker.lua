@@ -123,7 +123,7 @@ function Element:New(Idx, Config)
 		local SatVibMap = New("ImageLabel", {
 			Size = UDim2.fromOffset(180, 160),
 			Position = UDim2.fromOffset(20, 55),
-			Image = "rbxassetid://4155801252",
+			Image = "",
 			BackgroundColor3 = Colorpicker.Value,
 			BackgroundTransparency = 0,
 			Parent = Dialog.Root,
