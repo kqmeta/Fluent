@@ -59,7 +59,7 @@ function Element:New(Idx, Config)
 		Position = UDim2.new(1, -10, 0.5, 0),
 		AnchorPoint = Vector2.new(1, 0.5),
 		Parent = ColorpickerFrame.Frame,
-		Image = "http://www.roblox.com/asset/?id=14204231522",
+		Image = "",
 		ImageTransparency = 0.45,
 		ScaleType = Enum.ScaleType.Tile,
 		TileSize = UDim2.fromOffset(40, 40),
@@ -117,7 +117,7 @@ function Element:New(Idx, Config)
 			ScaleType = Enum.ScaleType.Fit,
 			AnchorPoint = Vector2.new(0.5, 0.5),
 			BackgroundTransparency = 1,
-			Image = "http://www.roblox.com/asset/?id=4805639000",
+			Image = "",
 		})
 
 		local SatVibMap = New("ImageLabel", {
@@ -145,7 +145,7 @@ function Element:New(Idx, Config)
 		})
 
 		local OldColorFrameChecker = New("ImageLabel", {
-			Image = "http://www.roblox.com/asset/?id=14204231522",
+			Image = "",
 			ImageTransparency = 0.45,
 			ScaleType = Enum.ScaleType.Tile,
 			TileSize = UDim2.fromOffset(40, 40),
@@ -175,7 +175,7 @@ function Element:New(Idx, Config)
 		})
 
 		local DialogDisplayFrameChecker = New("ImageLabel", {
-			Image = "http://www.roblox.com/asset/?id=14204231522",
+			Image = "",
 			ImageTransparency = 0.45,
 			ScaleType = Enum.ScaleType.Tile,
 			TileSize = UDim2.fromOffset(40, 40),
@@ -213,7 +213,7 @@ function Element:New(Idx, Config)
 
 		local HueDrag = New("ImageLabel", {
 			Size = UDim2.fromOffset(14, 14),
-			Image = "http://www.roblox.com/asset/?id=12266946128",
+			Image = "",
 			Parent = HueDragHolder,
 			ThemeTag = {
 				ImageColor3 = "DialogInput",
@@ -265,7 +265,7 @@ function Element:New(Idx, Config)
 
 			TransparencyDrag = New("ImageLabel", {
 				Size = UDim2.fromOffset(14, 14),
-				Image = "http://www.roblox.com/asset/?id=12266946128",
+				Image = "",
 				Parent = TransparencyDragHolder,
 				ThemeTag = {
 					ImageColor3 = "DialogInput",
@@ -297,7 +297,7 @@ function Element:New(Idx, Config)
 					CornerRadius = UDim.new(1, 0),
 				}),
 				New("ImageLabel", {
-					Image = "http://www.roblox.com/asset/?id=14204231522",
+					Image = "",
 					ImageTransparency = 0.45,
 					ScaleType = Enum.ScaleType.Tile,
 					TileSize = UDim2.fromOffset(40, 40),
